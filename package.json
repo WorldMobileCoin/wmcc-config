@@ -1,0 +1,19 @@
+{
+  "name": "wmcc-config",
+  "version": "1.0.0-beta.1",
+  "description": "WMCC Config - WMCC Configuration Parser",
+  "repository": "git://github.com/worldmobilecoin/wmcc-config.git",
+  "homepage": "https://github.com/worldmobilecoin/wmcc-config",
+  "bugs": {
+    "url": "https://github.com/worldmobilecoin/wmcc-config/issues"
+  },
+  "author": "ParkAlter@WorldMobileCoin <worldmobilecoin@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "wmcc-file": "*"
+  },
+  "main": "./lib/wmcc-config.js"
+}
